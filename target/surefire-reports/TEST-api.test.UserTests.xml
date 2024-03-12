@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="api.test.UserTests" time="4.027" tests="4" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Golda\eclipse-workspace\PetStoreAutomation\target\test-classes;C:\Users\Golda\eclipse-workspace\PetStoreAutomation\target\classes;C:\Users\Golda\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Golda\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Golda\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Golda\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Golda\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Golda\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Golda\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Golda\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Golda\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Golda\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Golda\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Golda\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Golda\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Golda\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Golda\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Golda\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Golda\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Golda\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\Golda\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\Golda\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\Golda\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\Golda\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Golda\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\Golda\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\Golda\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Golda\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Golda\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Golda\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Golda\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Golda\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Golda\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Golda\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Golda\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Golda\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Golda\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Golda\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Golda\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Golda\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Golda\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Golda\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Golda\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;C:\Users\Golda\.m2\repository\org\slf4j\slf4j-simple\1.6.6\slf4j-simple-1.6.6.jar;C:\Users\Golda\.m2\repository\net\sf\dozer\dozer\5.5.1\dozer-5.5.1.jar;C:\Users\Golda\.m2\repository\commons-beanutils\commons-beanutils\1.9.1\commons-beanutils-1.9.1.jar;C:\Users\Golda\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Golda\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Golda\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Golda\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testng\arquillian-testng-container\1.1.13.Final\arquillian-testng-container-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testng\arquillian-testng-core\1.1.13.Final\arquillian-testng-core-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\test\arquillian-test-api\1.1.13.Final\arquillian-test-api-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\test\arquillian-test-spi\1.1.13.Final\arquillian-test-spi-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\core\arquillian-core-spi\1.1.13.Final\arquillian-core-spi-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-api\1.1.13.Final\arquillian-container-test-api-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-api\1.2.6\shrinkwrap-api-1.2.6.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-spi\1.1.13.Final\arquillian-container-test-spi-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\container\arquillian-container-spi\1.1.13.Final\arquillian-container-spi-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-base\2.0.0-alpha-10\shrinkwrap-descriptors-api-base-2.0.0-alpha-10.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\core\arquillian-core-impl-base\1.1.13.Final\arquillian-core-impl-base-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\test\arquillian-test-impl-base\1.1.13.Final\arquillian-test-impl-base-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\container\arquillian-container-impl-base\1.1.13.Final\arquillian-container-impl-base-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\config\arquillian-config-api\1.1.13.Final\arquillian-config-api-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\config\arquillian-config-impl-base\1.1.13.Final\arquillian-config-impl-base-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-spi\2.0.0-alpha-10\shrinkwrap-descriptors-spi-2.0.0-alpha-10.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-impl-base\1.1.13.Final\arquillian-container-test-impl-base-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-impl-base\1.2.6\shrinkwrap-impl-base-1.2.6.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-spi\1.2.6\shrinkwrap-spi-1.2.6.jar;C:\Users\Golda\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\Golda\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\Golda\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Golda\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-container-managed\2.0.1.Final\wildfly-arquillian-container-managed-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-common\2.0.1.Final\wildfly-arquillian-common-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-cdi\1.1.11.Final\arquillian-testenricher-cdi-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-ejb\1.1.11.Final\arquillian-testenricher-ejb-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-initialcontext\1.1.11.Final\arquillian-testenricher-initialcontext-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-resource\1.1.11.Final\arquillian-testenricher-resource-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-servlet\1.1.11.Final\arquillian-protocol-servlet-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-testenricher-msc\2.0.1.Final\wildfly-arquillian-testenricher-msc-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-server\2.0.10.Final\wildfly-server-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-controller\2.0.10.Final\wildfly-controller-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\staxmapper\1.2.0.Final\staxmapper-1.2.0.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-domain-http-interface\2.0.10.Final\wildfly-domain-http-interface-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-deployment-repository\2.0.10.Final\wildfly-deployment-repository-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-platform-mbean\2.0.10.Final\wildfly-platform-mbean-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-process-controller\2.0.10.Final\wildfly-process-controller-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-network\2.0.10.Final\wildfly-network-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-self-contained\2.0.10.Final\wildfly-self-contained-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-version\2.0.10.Final\wildfly-version-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\jandex\2.0.1.Final\jandex-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\invocation\jboss-invocation\1.4.1.Final\jboss-invocation-1.4.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\logmanager\jboss-logmanager\2.0.3.Final\jboss-logmanager-2.0.3.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\modules\jboss-modules\1.5.1.Final\jboss-modules-1.5.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\stdio\jboss-stdio\1.0.2.GA\jboss-stdio-1.0.2.GA.jar;C:\Users\Golda\.m2\repository\org\jboss\jboss-vfs\3.2.11.Final\jboss-vfs-3.2.11.Final.jar;C:\Users\Golda\.m2\repository\io\undertow\undertow-core\1.3.15.Final\undertow-core-1.3.15.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\common\wildfly-common\1.1.0.Final\wildfly-common-1.1.0.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-controller-client\2.0.10.Final\wildfly-controller-client-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-protocol\2.0.10.Final\wildfly-protocol-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\jboss-dmr\1.3.0.Final\jboss-dmr-1.3.0.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\threads\jboss-threads\2.2.1.Final\jboss-threads-2.2.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-impl-base\2.0.0-alpha-9\shrinkwrap-descriptors-impl-base-2.0.0-alpha-9.jar;C:\Users\Golda\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-protocol-jmx\2.0.1.Final\wildfly-arquillian-protocol-jmx-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\security\wildfly-elytron\1.0.2.Final\wildfly-elytron-1.0.2.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-jmx\1.1.11.Final\arquillian-protocol-jmx-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-jmx\2.0.10.Final\wildfly-jmx-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\msc\jboss-msc\1.2.6.Final\jboss-msc-1.2.6.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-remoting\2.0.10.Final\wildfly-remoting-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-domain-management\2.0.10.Final\wildfly-domain-management-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\picketbox\picketbox\4.9.4.Final\picketbox-4.9.4.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-core-security\2.0.10.Final\wildfly-core-security-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-core-security-api\2.0.10.Final\wildfly-core-security-api-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-io\2.0.10.Final\wildfly-io-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\xnio\xnio-api\3.3.4.Final\xnio-api-3.3.4.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\xnio\xnio-nio\3.3.4.Final\xnio-nio-3.3.4.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\marshalling\jboss-marshalling\1.4.10.Final\jboss-marshalling-1.4.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\marshalling\jboss-marshalling-river\1.4.10.Final\jboss-marshalling-river-1.4.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\remoting\jboss-remoting\4.0.18.Final\jboss-remoting-4.0.18.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\remotingjmx\remoting-jmx\2.0.1.Final\remoting-jmx-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\sasl\jboss-sasl\1.0.5.Final\jboss-sasl-1.0.5.Final.jar;C:\Users\Golda\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-launcher\2.0.10.Final\wildfly-launcher-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\core\arquillian-core-api\1.1.11.Final\arquillian-core-api-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Golda\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Golda\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Golda\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Golda\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Golda\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Golda\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Users\Golda\Downloads\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Golda\AppData\Local\Temp\surefire14764555275778504388\surefirebooter-20240312153017690_3.jar C:\Users\Golda\AppData\Local\Temp\surefire14764555275778504388 2024-03-12T15-30-17_513-jvmRun1 surefire-20240312153017690_1tmp surefire_0-20240312153017690_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Golda\eclipse-workspace\PetStoreAutomation\target\test-classes;C:\Users\Golda\eclipse-workspace\PetStoreAutomation\target\classes;C:\Users\Golda\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Golda\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Golda\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Golda\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Golda\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Golda\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Golda\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Golda\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Golda\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Golda\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Golda\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Golda\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Golda\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Golda\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Golda\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Golda\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Golda\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Golda\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\Golda\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\Golda\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\Golda\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\Golda\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Golda\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\Golda\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\Golda\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Golda\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Golda\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Golda\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Golda\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Golda\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Golda\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Golda\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Golda\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Golda\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Golda\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Golda\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Golda\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Golda\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Golda\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Golda\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Golda\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;C:\Users\Golda\.m2\repository\org\slf4j\slf4j-simple\1.6.6\slf4j-simple-1.6.6.jar;C:\Users\Golda\.m2\repository\net\sf\dozer\dozer\5.5.1\dozer-5.5.1.jar;C:\Users\Golda\.m2\repository\commons-beanutils\commons-beanutils\1.9.1\commons-beanutils-1.9.1.jar;C:\Users\Golda\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Golda\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Golda\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Golda\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testng\arquillian-testng-container\1.1.13.Final\arquillian-testng-container-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testng\arquillian-testng-core\1.1.13.Final\arquillian-testng-core-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\test\arquillian-test-api\1.1.13.Final\arquillian-test-api-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\test\arquillian-test-spi\1.1.13.Final\arquillian-test-spi-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\core\arquillian-core-spi\1.1.13.Final\arquillian-core-spi-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-api\1.1.13.Final\arquillian-container-test-api-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-api\1.2.6\shrinkwrap-api-1.2.6.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-spi\1.1.13.Final\arquillian-container-test-spi-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\container\arquillian-container-spi\1.1.13.Final\arquillian-container-spi-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-base\2.0.0-alpha-10\shrinkwrap-descriptors-api-base-2.0.0-alpha-10.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\core\arquillian-core-impl-base\1.1.13.Final\arquillian-core-impl-base-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\test\arquillian-test-impl-base\1.1.13.Final\arquillian-test-impl-base-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\container\arquillian-container-impl-base\1.1.13.Final\arquillian-container-impl-base-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\config\arquillian-config-api\1.1.13.Final\arquillian-config-api-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\config\arquillian-config-impl-base\1.1.13.Final\arquillian-config-impl-base-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-spi\2.0.0-alpha-10\shrinkwrap-descriptors-spi-2.0.0-alpha-10.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-impl-base\1.1.13.Final\arquillian-container-test-impl-base-1.1.13.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-impl-base\1.2.6\shrinkwrap-impl-base-1.2.6.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-spi\1.2.6\shrinkwrap-spi-1.2.6.jar;C:\Users\Golda\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\Golda\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\Golda\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Golda\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-container-managed\2.0.1.Final\wildfly-arquillian-container-managed-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-common\2.0.1.Final\wildfly-arquillian-common-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-cdi\1.1.11.Final\arquillian-testenricher-cdi-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-ejb\1.1.11.Final\arquillian-testenricher-ejb-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-initialcontext\1.1.11.Final\arquillian-testenricher-initialcontext-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-resource\1.1.11.Final\arquillian-testenricher-resource-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-servlet\1.1.11.Final\arquillian-protocol-servlet-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-testenricher-msc\2.0.1.Final\wildfly-arquillian-testenricher-msc-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-server\2.0.10.Final\wildfly-server-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-controller\2.0.10.Final\wildfly-controller-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\staxmapper\1.2.0.Final\staxmapper-1.2.0.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-domain-http-interface\2.0.10.Final\wildfly-domain-http-interface-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-deployment-repository\2.0.10.Final\wildfly-deployment-repository-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-platform-mbean\2.0.10.Final\wildfly-platform-mbean-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-process-controller\2.0.10.Final\wildfly-process-controller-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-network\2.0.10.Final\wildfly-network-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-self-contained\2.0.10.Final\wildfly-self-contained-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-version\2.0.10.Final\wildfly-version-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\jandex\2.0.1.Final\jandex-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\invocation\jboss-invocation\1.4.1.Final\jboss-invocation-1.4.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\logmanager\jboss-logmanager\2.0.3.Final\jboss-logmanager-2.0.3.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\modules\jboss-modules\1.5.1.Final\jboss-modules-1.5.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\stdio\jboss-stdio\1.0.2.GA\jboss-stdio-1.0.2.GA.jar;C:\Users\Golda\.m2\repository\org\jboss\jboss-vfs\3.2.11.Final\jboss-vfs-3.2.11.Final.jar;C:\Users\Golda\.m2\repository\io\undertow\undertow-core\1.3.15.Final\undertow-core-1.3.15.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\common\wildfly-common\1.1.0.Final\wildfly-common-1.1.0.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-controller-client\2.0.10.Final\wildfly-controller-client-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-protocol\2.0.10.Final\wildfly-protocol-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\jboss-dmr\1.3.0.Final\jboss-dmr-1.3.0.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\threads\jboss-threads\2.2.1.Final\jboss-threads-2.2.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-impl-base\2.0.0-alpha-9\shrinkwrap-descriptors-impl-base-2.0.0-alpha-9.jar;C:\Users\Golda\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-protocol-jmx\2.0.1.Final\wildfly-arquillian-protocol-jmx-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\security\wildfly-elytron\1.0.2.Final\wildfly-elytron-1.0.2.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-jmx\1.1.11.Final\arquillian-protocol-jmx-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-jmx\2.0.10.Final\wildfly-jmx-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\msc\jboss-msc\1.2.6.Final\jboss-msc-1.2.6.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-remoting\2.0.10.Final\wildfly-remoting-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-domain-management\2.0.10.Final\wildfly-domain-management-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\picketbox\picketbox\4.9.4.Final\picketbox-4.9.4.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-core-security\2.0.10.Final\wildfly-core-security-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-core-security-api\2.0.10.Final\wildfly-core-security-api-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-io\2.0.10.Final\wildfly-io-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\xnio\xnio-api\3.3.4.Final\xnio-api-3.3.4.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\xnio\xnio-nio\3.3.4.Final\xnio-nio-3.3.4.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\marshalling\jboss-marshalling\1.4.10.Final\jboss-marshalling-1.4.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\marshalling\jboss-marshalling-river\1.4.10.Final\jboss-marshalling-river-1.4.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\remoting\jboss-remoting\4.0.18.Final\jboss-remoting-4.0.18.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\remotingjmx\remoting-jmx\2.0.1.Final\remoting-jmx-2.0.1.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\sasl\jboss-sasl\1.0.5.Final\jboss-sasl-1.0.5.Final.jar;C:\Users\Golda\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Golda\.m2\repository\org\wildfly\core\wildfly-launcher\2.0.10.Final\wildfly-launcher-2.0.10.Final.jar;C:\Users\Golda\.m2\repository\org\jboss\arquillian\core\arquillian-core-api\1.1.11.Final\arquillian-core-api-1.1.11.Final.jar;C:\Users\Golda\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Golda\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Golda\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Golda\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Golda\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Golda\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Golda\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Golda"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="C:\Users\Golda\Downloads\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\Golda\eclipse-workspace\PetStoreAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Golda\AppData\Local\Temp\surefire14764555275778504388\surefirebooter-20240312153017690_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8.1+1"/>
+    <property name="user.name" value="Golda"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
+    <property name="localRepository" value="C:\Users\Golda\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Golda\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="C:\Users\Golda\eclipse-workspace\PetStoreAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Golda\Downloads\eclipse-java-2023-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Golda/Downloads/eclipse-java-2023-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin/server;C:/Users/Golda/Downloads/eclipse-java-2023-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Users\Golda\apache-maven-3.9.6\bin;C:\Users\Golda\AppData\Local\Microsoft\WindowsApps;C:\Users\Golda\apache-maven-3.9.6\bin;;C:\Users\Golda\Downloads\eclipse-java-2023-09-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.8.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testCreateUser" classname="api.test.UserTests" time="1.988">
+    <failure message="expected [200] but found [500]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [500]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at api.test.UserTests.testCreateUser(UserTests.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 500 Server Error
+Date: Tue, 12 Mar 2024 19:30:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 500,
+    "type": "unknown",
+    "message": "something bad happened"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser" classname="api.test.UserTests" time="0.133">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at api.test.UserTests.testGetUser(UserTests.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Date: Tue, 12 Mar 2024 19:30:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 1,
+    "type": "error",
+    "message": "User not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser" classname="api.test.UserTests" time="0.263">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Tue, 12 Mar 2024 19:30:21 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "121167003"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser" classname="api.test.UserTests" time="0.124">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Tue, 12 Mar 2024 19:30:22 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "zula.rohan"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
